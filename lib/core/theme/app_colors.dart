@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static const Color primary = Color(0xFF6366F1); // Indigo
-  static const Color secondary = Color(0xFF10B981); // Emerald
-  static const Color background = Color(0xFF0F172A); // Slate 900
-  static const Color surface = Color(0xFF1E293B); // Slate 800
-  static const Color textPrimary = Color(0xFFF8FAFC); // Slate 50
-  static const Color textSecondary = Color(0xFF94A3B8); // Slate 400
-  static const Color error = Color(0xFFEF4444); // Red 500
-  static const Color warning = Color(0xFFF59E0B); // Amber 500
+  // Quantum Theme
+  static const Color backgroundDark = Color(0xFF05050B);
+  static const Color neonPurple = Color(0xFF9D00FF);
+  static const Color neonCyan = Color(0xFF00F0FF);
+  static const Color neonPink = Color(0xFFFF003C);
+  
+  static const Color surface = Color(0x1AFFFFFF); // Glass
+  static const Color surfaceHighlight = Color(0x33FFFFFF);
+  
+  static const Color textPrimary = Color(0xFFFFFFFF);
+  static const Color textSecondary = Color(0xFFB0B0C0);
+  
+  static const Color error = neonPink;
+  static const Color secondary = neonCyan;
+  static const Color primary = neonPurple;
+
+  static const LinearGradient quantumGradient = LinearGradient(
+    colors: [neonPurple, neonCyan],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
 }

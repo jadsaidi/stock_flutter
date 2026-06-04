@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605648654273",
+    "project_id": "stock-flutter-partiel",
+    "storage_bucket": "stock-flutter-partiel.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605648654273:android:a80347018cc452620ae940",
+        "android_client_info": {
+          "package_name": "com.example.stock_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDATaNU-h9Szq3eyQKURwpTwfBqsh8GS2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
